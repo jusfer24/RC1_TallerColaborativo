@@ -39,7 +39,7 @@ int leerEnteroMenor (char*mensaje, int menor){
         printf("%s", mensaje);
         scanf("%i", &valor);
         if (valor >= menor){
-            printf("Error");
+            printf("Error\n");
         }
     }while(valor >= menor);
     return valor;
@@ -74,4 +74,11 @@ float leerFlotantePositivo (char* mensaje){
         }
     }while(valor<=0);
     return valor;
+}
+
+char leerCaracteres(char* mensaje){
+    char msg[50];
+    printf("%s", mensaje);
+    scanf("%s", &msg);
+    return *msg;
 }

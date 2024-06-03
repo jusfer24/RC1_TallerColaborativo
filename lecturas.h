@@ -6,3 +6,4 @@ int leerEnteroMenor (char*, int);
 float leerFlotante (char*);
 float leerFlotanteEntre (char*, float, float);
 float leerFlotantePositivo(char*);
+char leerCaracteres(char*);
