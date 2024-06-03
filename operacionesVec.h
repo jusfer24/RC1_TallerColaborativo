@@ -1,5 +1,5 @@
-int leerEnteroPositivo(char* mensaje);
-void ingresarLibros(char nombres[][50], int cantidades[], float precios[], int filas);
-void imprimirLibros(char nombres[][50], int cantidades[], float precios[], int filas);
-void editarLibro(char nombres[][50], int cantidades[], float precios[], int filas);
+void ingresarLibros(char nombres[50][], int cantidades[], float precios[], int tamano);
+void imprimirLibros(char nombres[50][], int cantidades[], float precios[], int tamano);
+void editarLibro(char nombres[50][], int cantidades[], float precios[], int tamano);
 int leerEnteroEntre(char* mensaje, int limInferior, int limSuperior);
+void mostrarmenu();
