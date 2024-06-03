@@ -3,12 +3,12 @@
 #include "operacionesVec.h"
 
 int main(int argc, char const *argv[]) {
-    int tamano=0, opcion;
+    int tamano, opcion;
     printf("--> * Bienvenido a la Libreria Andina* <--\n");
     tamano = leerEnteroPositivo("\nIngrese cantidad de libros a almacenar: ");
-    char nombres[tamano][50];  
-    int cantidades[tamano];
-    float precios[tamano];     
+    char nombres[50][50];  
+    int cantidades[50];
+    float precios[50];     
     
     ingresarLibros(nombres, cantidades, precios, tamano);
     printf("\n");

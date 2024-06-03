@@ -11,16 +11,16 @@ void ingresarLibros(char nombres[][50], int cantidades[], float precios[], int t
         printf(" -----------------------------------------\n"); 
         printf("Ingrese el nombre del libro %d: ", i + 1);
         scanf("%s", nombres[i]);
-        leerEnteroPositivo(("Ingrese la cantidad de libros del ejemplar %d: ", i + 1));
+        leerEnteroPositivo("Ingrese la cantidad de libros del ejemplar ingresdo: ");
         leerFlotantePositivo("Ingrese el precio del libro por unidad en dolares: ");
     }
 }
 
-void imprimirLibros(char nombres[][50], int cantidades[], float precios[], int tamano) {
-    printf("Libreria Andina\n");
+void imprimirLibros(char nombres[][50],int cantidades[], float precios[], int tamano) {
+    printf("Inventario-Libreria Andina\n");
     printf("|Nombre     | Cantidad   | Precio|\n");
     for (int i = 0; i < tamano; i++) {
-        printf(" %d | %s | %d unidades | %.2f $\n", i + 1, nombres[i], cantidades[i], precios[i]);
+        printf(" %i | %s | %i unidades | %.2f $\n", i + 1, nombres[i], cantidades[i], precios[i]);
     }
 }
 
@@ -30,7 +30,7 @@ void mostrarmenu(){
     printf("Menu de opciones:\n");
     printf("1. Editar un dato\n");
     printf("2. Mostrar inventario\n");
-    printf("4. Cerrar\n");
+    printf("3. Cerrar\n");
     printf("********************\n");
 }
 

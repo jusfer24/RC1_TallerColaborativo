@@ -8,7 +8,7 @@ int leerEnteroPositivo (char* mensaje){
         printf("%s", mensaje);
         scanf("%d",&valor);
             if(valor <=0){
-            printf("Error, ingrese un dato entero positivo");
+            printf("Error, ingrese un dato entero positivo\n");
             }
     }while(valor <= 0);
     return valor;
