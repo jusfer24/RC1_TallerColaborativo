@@ -1,5 +1,5 @@
-void ingresarcos(float[],int);
-void mostrarcos(float[],int);
-float calcularPromedio(const float[],int);
-float cosMaxima(const float[],int);
-void cosMaxProm(const float[],int, float);
+int leerEnteroPositivo(char* mensaje);
+void ingresarLibros(char nombres[][50], int cantidades[], float precios[], int filas);
+void imprimirLibros(char nombres[][50], int cantidades[], float precios[], int filas);
+void editarLibro(char nombres[][50], int cantidades[], float precios[], int filas);
+int leerEnteroEntre(char* mensaje, int limInferior, int limSuperior);
