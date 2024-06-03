@@ -1,5 +1,5 @@
-void ingresarLibros(char nombres[][50], int cantidades[], float precios[], int tamano);
-void imprimirLibros(char nombres[][50], int cantidades[], float precios[], int tamano);
-void editarLibro(char nombres[][50], int cantidades[], float precios[], int tamano);
-int leerEnteroEntre(char* mensaje, int limInferior, int limSuperior);
+void ingresarLibros(char[][50], int[], float[], int);
+void imprimirLibros(char[][50], int[], float[], int);
+void editarLibro(char[][50], int[], float[], int);
+int leerEnteroEntre(char* , int , int );
 void mostrarmenu();

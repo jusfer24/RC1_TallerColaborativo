@@ -11,8 +11,8 @@ void ingresarLibros(char nombres[][50], int cantidades[], float precios[], int t
         printf(" -----------------------------------------\n"); 
         printf("Ingrese el nombre del libro %d: ", i + 1);
         scanf("%s", nombres[i]);
-        leerEnteroPositivo("Ingrese la cantidad de libros del ejemplar ingresdo: ");
-        leerFlotantePositivo("Ingrese el precio del libro por unidad en dolares: ");
+        cantidades[i]=leerEnteroPositivo("Ingrese la cantidad de libros del ejemplar ingresdo: ");
+        precios[i]=leerFlotantePositivo("Ingrese el precio del libro por unidad en dolares: ");
     }
 }
 

@@ -6,9 +6,9 @@ int main(int argc, char const *argv[]) {
     int tamano, opcion;
     printf("--> * Bienvenido a la Libreria Andina* <--\n");
     tamano = leerEnteroPositivo("\nIngrese cantidad de libros a almacenar: ");
-    char nombres[50][50];  
-    int cantidades[50];
-    float precios[50];     
+    char nombres[tamano][50];  
+    int cantidades[tamano];
+    float precios[tamano];  
     
     ingresarLibros(nombres, cantidades, precios, tamano);
     printf("\n");
